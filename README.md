@@ -18,6 +18,15 @@ Or install it yourself as:
 
     $ gem install mad_rubocop
 
+Add this to your project .rubocop.yml file:
+
+```yml
+inherit_gem:
+  mad_rubocop: .rubocop.yml
+```
+
+NOTE: The `Exlude` setting on cops that only ignore certain files or directories cannot be set by MadRubocop.
+
 
 ## Development
 
