@@ -1,0 +1,96 @@
+---
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Description: Avoid parameter lists longer than three or four parameters.
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Performance/Detect:
+  Enabled: false
+Performance/StringReplacement:
+  Enabled: false
+
+Rails/ActionFilter:
+  Enabled: false
+Rails/Date:
+  Enabled: false
+Rails/FindBy:
+  Enabled: false
+Rails/TimeZone:
+  Enabled: false
+
+Style/AutoResourceCleanup:
+  Enabled: false
+Style/CollectionMethods:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/Encoding:
+  Enabled: false
+Style/ExtraSpacing: # do we want this cop disabled?
+  Enabled: false
+Style/FirstArrayElementLineBreak:
+  Enabled: false
+Style/FirstHashElementLineBreak:
+  Enabled: false
+Style/FirstMethodArgumentLineBreak:
+  Enabled: false
+Style/FirstMethodParameterLineBreak:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Style/InlineComment:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+Style/MissingElse:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/Next:
+  Enabled: false
+Style/OptionHash:
+  Enabled: false
+Style/PredicateName:
+  Enabled: false
+Style/RedundantSelf:
+  Enabled: false
+Style/RegexpLiteral:
+  Enabled: false
+Style/Send:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
+Style/SingleLineBlockParams:
+  Enabled: false
+Style/StringMethods:
+  Enabled: false
+Style/StructInheritance:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/TrailingComma:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
