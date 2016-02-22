@@ -2,6 +2,10 @@
 # Cops that enforce a non RuboCop default style
 #
 
+Style/Alias:
+  Description: Use alias_method instead of alias in a class or module body.
+  EnforcedStyle: prefer_alias_method
+
 Style/AccessModifierIndentation:
   Description: Indent private/protected/public as deep as method definitions
   Enabled: true

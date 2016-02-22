@@ -18,6 +18,8 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Performance/Casecmp:
+  Enabled: false
 Performance/Detect:
   Enabled: false
 Performance/StringReplacement:
@@ -46,7 +48,7 @@ Style/EachWithObject:
   Enabled: false
 Style/Encoding:
   Enabled: false
-Style/ExtraSpacing: # do we want this cop disabled?
+Style/ExtraSpacing:
   Enabled: false
 Style/FirstArrayElementLineBreak:
   Enabled: false
@@ -74,6 +76,8 @@ Style/OptionHash:
   Enabled: false
 Style/PredicateName:
   Enabled: false
+Style/RedundantParentheses:
+  Enabled: false
 Style/RedundantSelf:
   Enabled: false
 Style/RegexpLiteral:
@@ -90,7 +94,11 @@ Style/StructInheritance:
   Enabled: false
 Style/SymbolArray:
   Enabled: false
-Style/TrailingComma:
+Style/TrailingCommaInArguments:
+  Enabled: false
+Style/TrailingCommaInLiteral:
+  Enabled: false
+Style/UnneededInterpolation:
   Enabled: false
 Style/WordArray:
   Enabled: false
