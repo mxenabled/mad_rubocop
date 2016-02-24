@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/mxenabled/mad_rubocop.svg)](https://gemnasium.com/mxenabled/mad_rubocop)
+
 # MadRubocop
 
 Custom RuboCop yml files to modify the cops enforced by RuboCop.
