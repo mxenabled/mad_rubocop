@@ -1,4 +1,15 @@
 ---
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/FirstArrayElementLineBreak:
+  Enabled: false
+Layout/FirstHashElementLineBreak:
+  Enabled: false
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: false
+Layout/FirstMethodParameterLineBreak:
+  Enabled: false
+
 Metrics/AbcSize:
   Enabled: false
 Metrics/BlockNesting:
@@ -31,6 +42,8 @@ Rails/Date:
   Enabled: false
 Rails/FindBy:
   Enabled: false
+Rails/HttpPositionalArguments:
+  Enabled: false
 Rails/TimeZone:
   Enabled: false
 
@@ -48,17 +61,9 @@ Style/EachWithObject:
   Enabled: false
 Style/Encoding:
   Enabled: false
-Style/ExtraSpacing:
-  Enabled: false
-Style/FirstArrayElementLineBreak:
-  Enabled: false
-Style/FirstHashElementLineBreak:
-  Enabled: false
-Style/FirstMethodArgumentLineBreak:
-  Enabled: false
-Style/FirstMethodParameterLineBreak:
-  Enabled: false
 Style/FormatString:
+  Enabled: false
+Style/FrozenStringLiteralComment:
   Enabled: false
 Style/InlineComment:
   Enabled: false
