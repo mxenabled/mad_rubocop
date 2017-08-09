@@ -42,8 +42,6 @@ Rails/Date:
   Enabled: false
 Rails/FindBy:
   Enabled: false
-Rails/HttpPositionalArguments:
-  Enabled: false
 Rails/TimeZone:
   Enabled: false
 
