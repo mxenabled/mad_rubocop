@@ -40,11 +40,21 @@ Performance/StringReplacement:
 
 Rails/ActionFilter:
   Enabled: false
+Rails/Blank:
+  Enabled: false
 Rails/Date:
+  Enabled: false
+Rails/DynamicFindBy:
   Enabled: false
 Rails/FindBy:
   Enabled: false
+Rails/FilePath:
+  Enabled: false
 Rails/TimeZone:
+  Enabled: false
+
+# The autocorrect for this will break YAML load when aliases present
+Security/YAMLLoad:
   Enabled: false
 
 Style/AutoResourceCleanup:
@@ -76,6 +86,8 @@ Style/MissingElse:
 Style/MutableConstant:
   Enabled: false
 Style/Next:
+  Enabled: false
+Style/NumericPredicate:
   Enabled: false
 Style/OptionHash:
   Enabled: false
