@@ -1,5 +1,18 @@
 ---
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/FirstArrayElementLineBreak:
+  Enabled: false
+Layout/FirstHashElementLineBreak:
+  Enabled: false
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: false
+Layout/FirstMethodParameterLineBreak:
+  Enabled: false
+
 Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
   Enabled: false
 Metrics/BlockNesting:
   Enabled: false
@@ -27,11 +40,21 @@ Performance/StringReplacement:
 
 Rails/ActionFilter:
   Enabled: false
+Rails/Blank:
+  Enabled: false
 Rails/Date:
+  Enabled: false
+Rails/DynamicFindBy:
   Enabled: false
 Rails/FindBy:
   Enabled: false
+Rails/FilePath:
+  Enabled: false
 Rails/TimeZone:
+  Enabled: false
+
+# The autocorrect for this will break YAML load when aliases present
+Security/YAMLLoad:
   Enabled: false
 
 Style/AutoResourceCleanup:
@@ -48,17 +71,9 @@ Style/EachWithObject:
   Enabled: false
 Style/Encoding:
   Enabled: false
-Style/ExtraSpacing:
-  Enabled: false
-Style/FirstArrayElementLineBreak:
-  Enabled: false
-Style/FirstHashElementLineBreak:
-  Enabled: false
-Style/FirstMethodArgumentLineBreak:
-  Enabled: false
-Style/FirstMethodParameterLineBreak:
-  Enabled: false
 Style/FormatString:
+  Enabled: false
+Style/FrozenStringLiteralComment:
   Enabled: false
 Style/InlineComment:
   Enabled: false
@@ -71,6 +86,8 @@ Style/MissingElse:
 Style/MutableConstant:
   Enabled: false
 Style/Next:
+  Enabled: false
+Style/NumericPredicate:
   Enabled: false
 Style/OptionHash:
   Enabled: false
