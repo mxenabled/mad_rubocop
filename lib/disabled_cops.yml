@@ -9,6 +9,8 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: false
+Layout/IndentHeredoc:
+  Enabled: false
 
 Metrics/AbcSize:
   Enabled: false
@@ -68,6 +70,8 @@ Style/Documentation:
 Style/DoubleNegation:
   Enabled: false
 Style/EachWithObject:
+  Enabled: false
+Style/EmptyCaseCondition:
   Enabled: false
 Style/Encoding:
   Enabled: false
