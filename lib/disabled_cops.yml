@@ -11,6 +11,8 @@ Layout/FirstMethodParameterLineBreak:
   Enabled: false
 Layout/IndentHeredoc:
   Enabled: false
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
 
 Metrics/AbcSize:
   Enabled: false
@@ -52,6 +54,8 @@ Rails/FindBy:
   Enabled: false
 Rails/FilePath:
   Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
 Rails/TimeZone:
   Enabled: false
 
@@ -78,6 +82,8 @@ Style/Encoding:
 Style/FormatString:
   Enabled: false
 Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/GuardClause:
   Enabled: false
 Style/InlineComment:
   Enabled: false
@@ -120,6 +126,8 @@ Style/TrailingCommaInArguments:
 Style/TrailingCommaInLiteral:
   Enabled: false
 Style/UnneededInterpolation:
+  Enabled: false
+Style/VariableNumber:
   Enabled: false
 Style/WordArray:
   Enabled: false
