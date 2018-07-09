@@ -1,4 +1,10 @@
 ---
+Bundler/InsecureProtocolSource:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
 Layout/ExtraSpacing:
   Enabled: false
 Layout/FirstArrayElementLineBreak:
@@ -12,6 +18,27 @@ Layout/FirstMethodParameterLineBreak:
 Layout/IndentHeredoc:
   Enabled: false
 Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Lint/BooleanSymbol:
+  Enabled: false
+Lint/RedundantWithIndex:
+  Enabled: false
+Lint/RedundantWithObject:
+  Enabled: false
+Lint/RegexpAsCondition:
+  Enabled: false
+Lint/RescueWithoutErrorClass:
+  Enabled: false
+Lint/ReturnInVoidContext:
+  Enabled: false
+Lint/ScriptPermission:
+  Enabled: false
+Lint/UnneededRequireStatement:
+  Enabled: false
+Lint/UriEscapeUnescape:
+  Enabled: false
+Lint/UriRegexp:
   Enabled: false
 
 Metrics/AbcSize:
@@ -39,7 +66,13 @@ Performance/Casecmp:
   Enabled: false
 Performance/Detect:
   Enabled: false
+Performance/HashEachMethod:
+  Enabled: false
 Performance/StringReplacement:
+  Enabled: false
+Performance/UnfreezeString:
+  Enabled: false
+Performance/UriDefaultParser:
   Enabled: false
 
 Rails/ActionFilter:
@@ -54,9 +87,15 @@ Rails/FindBy:
   Enabled: false
 Rails/FilePath:
   Enabled: false
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Rails/PluralizationGrammar:
+  Enabled: false
 Rails/SkipsModelValidations:
   Enabled: false
 Rails/TimeZone:
+  Enabled: false
+Rails/UnknownEnv:
   Enabled: false
 
 # The autocorrect for this will break YAML load when aliases present
@@ -67,11 +106,19 @@ Style/AutoResourceCleanup:
   Enabled: false
 Style/CollectionMethods:
   Enabled: false
+Style/CommentedKeyword:
+  Enabled: false
 Style/Copyright:
+  Enabled: false
+Style/DateTime:
+  Enabled: false
+Style/Dir:
   Enabled: false
 Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
+  Enabled: false
+Style/DoublePipeEquals:
   Enabled: false
 Style/EachWithObject:
   Enabled: false
@@ -85,13 +132,21 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
   Enabled: false
+Style/HeredocDelimiterCase:
+  Enabled: false
+Style/HeredocDelimiters:
+  Enabled: false
 Style/InlineComment:
   Enabled: false
 Style/Lambda:
   Enabled: false
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
+Style/MinMax:
+  Enabled: false
 Style/MissingElse:
+  Enabled: false
+Style/MixinUsage:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
@@ -103,17 +158,23 @@ Style/OptionHash:
   Enabled: false
 Style/PredicateName:
   Enabled: false
+Style/RedundantConditional:
+  Enabled: false
 Style/RedundantParentheses:
   Enabled: false
 Style/RedundantSelf:
   Enabled: false
 Style/RegexpLiteral:
   Enabled: false
-Style/Send:
+Style/ReturnNil:
+  Enabled: false
+ Style/Send:
   Enabled: false
 Style/SignalException:
   Enabled: false
 Style/SingleLineBlockParams:
+  Enabled: false
+Style/StderrPuts:
   Enabled: false
 Style/StringMethods:
   Enabled: false
@@ -125,9 +186,13 @@ Style/TrailingCommaInArguments:
   Enabled: false
 Style/TrailingCommaInLiteral:
   Enabled: false
+Style/TrailingUnderscoreVariable:
+  Enabled: false
 Style/UnneededInterpolation:
   Enabled: false
 Style/VariableNumber:
   Enabled: false
 Style/WordArray:
+  Enabled: false
+Style/YodaCondition:
   Enabled: false
