@@ -28,8 +28,6 @@ Lint/RedundantWithObject:
   Enabled: false
 Lint/RegexpAsCondition:
   Enabled: false
-Lint/RescueWithoutErrorClass:
-  Enabled: false
 Lint/ReturnInVoidContext:
   Enabled: false
 Lint/ScriptPermission:
@@ -62,11 +60,18 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Naming/HeredocDelimiterCase:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: false
+Naming/VariableNumber:
+  Enabled: false
+
 Performance/Casecmp:
   Enabled: false
 Performance/Detect:
   Enabled: false
-Performance/HashEachMethod:
+Performance/RegexpMatch:
   Enabled: false
 Performance/StringReplacement:
   Enabled: false
@@ -118,8 +123,6 @@ Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
   Enabled: false
-Style/DoublePipeEquals:
-  Enabled: false
 Style/EachWithObject:
   Enabled: false
 Style/EmptyCaseCondition:
@@ -131,10 +134,6 @@ Style/FormatString:
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
-  Enabled: false
-Style/HeredocDelimiterCase:
-  Enabled: false
-Style/HeredocDelimiters:
   Enabled: false
 Style/InlineComment:
   Enabled: false
@@ -156,8 +155,6 @@ Style/NumericPredicate:
   Enabled: false
 Style/OptionHash:
   Enabled: false
-Style/PredicateName:
-  Enabled: false
 Style/RedundantConditional:
   Enabled: false
 Style/RedundantParentheses:
@@ -166,9 +163,11 @@ Style/RedundantSelf:
   Enabled: false
 Style/RegexpLiteral:
   Enabled: false
+Style/RescueStandardError:
+  Enabled: false
 Style/ReturnNil:
   Enabled: false
- Style/Send:
+Style/Send:
   Enabled: false
 Style/SignalException:
   Enabled: false
@@ -189,8 +188,6 @@ Style/TrailingCommaInLiteral:
 Style/TrailingUnderscoreVariable:
   Enabled: false
 Style/UnneededInterpolation:
-  Enabled: false
-Style/VariableNumber:
   Enabled: false
 Style/WordArray:
   Enabled: false
