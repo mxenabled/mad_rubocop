@@ -168,7 +168,7 @@ Style/RegexpLiteral:
   Enabled: false
 Style/ReturnNil:
   Enabled: false
- Style/Send:
+Style/Send:
   Enabled: false
 Style/SignalException:
   Enabled: false
