@@ -17,10 +17,12 @@ Layout/FirstMethodParameterLineBreak:
   Enabled: false
 Layout/IndentHeredoc:
   Enabled: false
+
 Lint/AmbiguousBlockAssociation:
   Enabled: false
-
 Lint/BooleanSymbol:
+  Enabled: false
+Lint/DuplicateMethods:
   Enabled: false
 Lint/RedundantWithIndex:
   Enabled: false
