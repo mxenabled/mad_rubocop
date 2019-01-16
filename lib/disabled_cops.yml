@@ -5,6 +5,14 @@ Bundler/InsecureProtocolSource:
 Gemspec/OrderedDependencies:
   Enabled: false
 
+Layout/AlignHash:
+  Enabled: false
+Layout/ClosingHeredocIndentation:
+  Enabled: false
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
 Layout/ExtraSpacing:
   Enabled: false
 Layout/FirstArrayElementLineBreak:
@@ -17,9 +25,11 @@ Layout/FirstMethodParameterLineBreak:
   Enabled: false
 Layout/IndentHeredoc:
   Enabled: false
-Lint/AmbiguousBlockAssociation:
+Layout/LeadingBlankLines:
   Enabled: false
 
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
 Lint/BooleanSymbol:
   Enabled: false
 Lint/RedundantWithIndex:
@@ -31,6 +41,8 @@ Lint/RegexpAsCondition:
 Lint/ReturnInVoidContext:
   Enabled: false
 Lint/ScriptPermission:
+  Enabled: false
+Lint/UnneededCopDisableDirective:
   Enabled: false
 Lint/UnneededRequireStatement:
   Enabled: false
@@ -62,7 +74,11 @@ Metrics/PerceivedComplexity:
 
 Naming/HeredocDelimiterCase:
   Enabled: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
 Naming/PredicateName:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
   Enabled: false
 Naming/VariableNumber:
   Enabled: false
@@ -70,6 +86,8 @@ Naming/VariableNumber:
 Performance/Casecmp:
   Enabled: false
 Performance/Detect:
+  Enabled: false
+Performance/InefficientHashSearch:
   Enabled: false
 Performance/RegexpMatch:
   Enabled: false
@@ -82,6 +100,8 @@ Performance/UriDefaultParser:
 
 Rails/ActionFilter:
   Enabled: false
+Rails/ActiveRecordAliases:
+  Enabled: false
 Rails/Blank:
   Enabled: false
 Rails/Date:
@@ -93,6 +113,10 @@ Rails/FindBy:
 Rails/FilePath:
   Enabled: false
 Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Rails/HttpStatus:
+  Enabled: false
+Rails/LexicallyScopedActionFilter:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
@@ -108,6 +132,8 @@ Security/YAMLLoad:
   Enabled: false
 
 Style/AutoResourceCleanup:
+  Enabled: false
+Style/ConditionalAssignment:
   Enabled: false
 Style/CollectionMethods:
   Enabled: false
@@ -129,11 +155,15 @@ Style/EmptyCaseCondition:
   Enabled: false
 Style/Encoding:
   Enabled: false
+Style/ExpandPathArguments:
+  Enabled: false
 Style/FormatString:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
+  Enabled: false
+Style/IfUnlessModifier:
   Enabled: false
 Style/InlineComment:
   Enabled: false
@@ -158,6 +188,8 @@ Style/OptionHash:
 Style/RedundantConditional:
   Enabled: false
 Style/RedundantParentheses:
+  Enabled: false
+Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
   Enabled: false
@@ -188,6 +220,8 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/TrailingUnderscoreVariable:
+  Enabled: false
+Style/UnneededCondition:
   Enabled: false
 Style/UnneededInterpolation:
   Enabled: false
