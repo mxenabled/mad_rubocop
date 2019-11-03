@@ -1,3 +1,7 @@
+require:
+  - ./lib/rubocop/cop/migrations/concurrent_index.rb
+  - ./lib/rubocop/cop/migrations/default_value.rb
+
 inherit_from:
   - lib/modified_cops.yml
   - lib/disabled_cops.yml
