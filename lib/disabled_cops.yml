@@ -5,7 +5,7 @@ Bundler/InsecureProtocolSource:
 Gemspec/OrderedDependencies:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 Layout/ClosingHeredocIndentation:
   Enabled: false
@@ -23,9 +23,9 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: false
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   Enabled: false
-Layout/LeadingBlankLines:
+Layout/LeadingEmptyLines:
   Enabled: false
 
 Lint/AmbiguousBlockAssociation:
@@ -42,9 +42,9 @@ Lint/ReturnInVoidContext:
   Enabled: false
 Lint/ScriptPermission:
   Enabled: false
-Lint/UnneededCopDisableDirective:
+Lint/RedundantCopDisableDirective:
   Enabled: false
-Lint/UnneededRequireStatement:
+Lint/RedundantRequireStatement:
   Enabled: false
 Lint/UriEscapeUnescape:
   Enabled: false
@@ -78,7 +78,7 @@ Naming/MemoizedInstanceVariableName:
   Enabled: false
 Naming/PredicateName:
   Enabled: false
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 Naming/VariableNumber:
   Enabled: false
@@ -221,9 +221,9 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
-Style/UnneededCondition:
+Style/RedundantCondition:
   Enabled: false
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Enabled: false
 Style/WordArray:
   Enabled: false
