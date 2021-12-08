@@ -5,7 +5,7 @@ Bundler/InsecureProtocolSource:
 Gemspec/OrderedDependencies:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 Layout/ClosingHeredocIndentation:
   Enabled: false
@@ -23,9 +23,13 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: false
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   Enabled: false
-Layout/LeadingBlankLines:
+Layout/LeadingEmptyLines:
+  Enabled: false
+Layout/LineLength:
+  Enabled: false
+Layout/SpaceAroundOperators:
   Enabled: false
 
 Lint/AmbiguousBlockAssociation:
@@ -42,9 +46,15 @@ Lint/ReturnInVoidContext:
   Enabled: false
 Lint/ScriptPermission:
   Enabled: false
-Lint/UnneededCopDisableDirective:
+Lint/RaiseException:
   Enabled: false
-Lint/UnneededRequireStatement:
+Lint/RedundantCopDisableDirective:
+  Enabled: false
+Lint/RedundantRequireStatement:
+  Enabled: false
+Lint/SuppressedException:
+  Enabled: false
+Lint/ToJSON:
   Enabled: false
 Lint/UriEscapeUnescape:
   Enabled: false
@@ -61,8 +71,6 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Enabled: false
-Metrics/LineLength:
-  Enabled: false
 Metrics/MethodLength:
   Enabled: false
 Metrics/ModuleLength:
@@ -76,14 +84,20 @@ Naming/HeredocDelimiterCase:
   Enabled: false
 Naming/MemoizedInstanceVariableName:
   Enabled: false
+Naming/MethodParameterName:
+  Enabled: false
 Naming/PredicateName:
   Enabled: false
-Naming/UncommunicativeMethodParamName:
+Naming/RescuedExceptionsVariableName:
   Enabled: false
 Naming/VariableNumber:
   Enabled: false
 
 Performance/Casecmp:
+  Enabled: false
+Performance/DeletePrefix:
+  Enabled: false
+Performance/DeleteSuffix:
   Enabled: false
 Performance/Detect:
   Enabled: false
@@ -108,11 +122,17 @@ Rails/Date:
   Enabled: false
 Rails/DynamicFindBy:
   Enabled: false
+Rails/EnumHash:
+  Enabled: false
+Rails/EnvironmentComparison:
+  Enabled: false
 Rails/FindBy:
   Enabled: false
 Rails/FilePath:
   Enabled: false
 Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Rails/HelperInstanceVariable:
   Enabled: false
 Rails/HttpStatus:
   Enabled: false
@@ -120,9 +140,13 @@ Rails/LexicallyScopedActionFilter:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
+Rails/RakeEnvironment:
+  Enabled: false
 Rails/SkipsModelValidations:
   Enabled: false
 Rails/TimeZone:
+  Enabled: false
+Rails/UniqueValidationWithoutIndex:
   Enabled: false
 Rails/UnknownEnv:
   Enabled: false
@@ -157,11 +181,21 @@ Style/Encoding:
   Enabled: false
 Style/ExpandPathArguments:
   Enabled: false
+Style/FloatDivision:
+  Enabled: false
 Style/FormatString:
+  Enabled: false
+Style/FormatStringToken:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
@@ -176,6 +210,8 @@ Style/MinMax:
 Style/MissingElse:
   Enabled: false
 Style/MixinUsage:
+  Enabled: false
+Style/MultilineWhenThen:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
@@ -221,9 +257,9 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
-Style/UnneededCondition:
+Style/RedundantCondition:
   Enabled: false
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Enabled: false
 Style/WordArray:
   Enabled: false

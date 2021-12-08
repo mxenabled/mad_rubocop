@@ -1,3 +1,7 @@
+require:
+- rubocop-rails
+- rubocop-performance
+
 inherit_from:
   - lib/modified_cops.yml
   - lib/disabled_cops.yml
