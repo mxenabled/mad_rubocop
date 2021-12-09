@@ -8,5 +8,6 @@ inherit_from:
 
 AllCops:
   DisplayCopNames: true
+  NewCops: disable
 Rails:
   Enabled: true

@@ -144,7 +144,15 @@ Rails/ActionFilter:
   Enabled: false
 Rails/ActiveRecordAliases:
   Enabled: false
+Rails/ApplicationJob:
+  Enabled: false
+Rails/ApplicationRecord:
+  Enabled: false
+Rails/BelongsTo:
+  Enabled: false
 Rails/Blank:
+  Enabled: false
+Rails/ContentTag:
   Enabled: false
 Rails/Date:
   Enabled: false
@@ -160,11 +168,17 @@ Rails/HasManyOrHasOneDependent:
   Enabled: false
 Rails/HelperInstanceVariable:
   Enabled: false
+Rails/HttpPositionalArguments:
+  Enabled: false
 Rails/HttpStatus:
+  Enabled: false
+Rails/IndexWith:
   Enabled: false
 Rails/InverseOf:
   Enabled: false
 Rails/LexicallyScopedActionFilter:
+  Enabled: false
+Rails/Pick:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
