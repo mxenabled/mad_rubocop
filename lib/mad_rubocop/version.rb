@@ -1,3 +1,3 @@
 module MadRubocop
-  VERSION = "3.64.0"
+  VERSION = "4.0.0.rc1"
 end
