@@ -1,9 +1,13 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
 inherit_from:
   - lib/modified_cops.yml
   - lib/disabled_cops.yml
 
 AllCops:
   DisplayCopNames: true
-  TargetRailsVersion: 4.0
+  NewCops: disable
 Rails:
   Enabled: true
