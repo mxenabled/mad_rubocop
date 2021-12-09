@@ -32,6 +32,8 @@ Lint/AmbiguousBlockAssociation:
   Enabled: false
 Lint/BooleanSymbol:
   Enabled: false
+Lint/NonDeterministicRequireOrder:
+  Enabled: false
 Lint/RedundantWithIndex:
   Enabled: false
 Lint/RedundantWithObject:
@@ -45,6 +47,10 @@ Lint/ScriptPermission:
 Lint/RedundantCopDisableDirective:
   Enabled: false
 Lint/RedundantRequireStatement:
+  Enabled: false
+Lint/SuppressedException:
+  Enabled: false
+Lint/ToJSON:
   Enabled: false
 Lint/UriEscapeUnescape:
   Enabled: false
@@ -80,10 +86,16 @@ Naming/PredicateName:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
 Naming/VariableNumber:
   Enabled: false
 
 Performance/Casecmp:
+  Enabled: false
+Performance/DeletePrefix:
+  Enabled: false
+Performance/DeleteSuffix:
   Enabled: false
 Performance/Detect:
   Enabled: false
@@ -108,11 +120,15 @@ Rails/Date:
   Enabled: false
 Rails/DynamicFindBy:
   Enabled: false
+Rails/EnumHash:
+  Enabled: false
 Rails/FindBy:
   Enabled: false
 Rails/FilePath:
   Enabled: false
 Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Rails/HelperInstanceVariable:
   Enabled: false
 Rails/HttpStatus:
   Enabled: false
@@ -120,9 +136,13 @@ Rails/LexicallyScopedActionFilter:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
+Rails/RakeEnvironment:
+  Enabled: false
 Rails/SkipsModelValidations:
   Enabled: false
 Rails/TimeZone:
+  Enabled: false
+Rails/UniqueValidationWithoutIndex:
   Enabled: false
 Rails/UnknownEnv:
   Enabled: false
@@ -157,8 +177,12 @@ Style/Encoding:
   Enabled: false
 Style/ExpandPathArguments:
   Enabled: false
+Style/FloatDivision:
+  Enabled: false
 Style/FormatString:
   Enabled: false
+Style/FormatStringToken:
+  EnforcedStyle: unannotated
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GuardClause:
@@ -176,6 +200,8 @@ Style/MinMax:
 Style/MissingElse:
   Enabled: false
 Style/MixinUsage:
+  Enabled: false
+Style/MultilineWhenThen:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
