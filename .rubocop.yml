@@ -8,6 +8,5 @@ inherit_from:
 
 AllCops:
   DisplayCopNames: true
-  TargetRailsVersion: 4.0
 Rails:
   Enabled: true
