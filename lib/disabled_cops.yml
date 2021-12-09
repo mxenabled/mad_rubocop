@@ -5,13 +5,17 @@ Bundler/InsecureProtocolSource:
 Gemspec/OrderedDependencies:
   Enabled: false
 
-Layout/HashAlignment:
+Layout/BeginEndAlignment:
   Enabled: false
 Layout/ClosingHeredocIndentation:
   Enabled: false
 Layout/ClosingParenthesisIndentation:
   Enabled: false
 Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 Layout/ExtraSpacing:
   Enabled: false
@@ -23,14 +27,34 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: false
+Layout/HashAlignment:
+  Enabled: false
 Layout/HeredocIndentation:
   Enabled: false
 Layout/LeadingEmptyLines:
   Enabled: false
+Layout/RescueEnsureAlignment:
+  Enabled: false
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
 
 Lint/AmbiguousBlockAssociation:
   Enabled: false
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: false
 Lint/BooleanSymbol:
+  Enabled: false
+Lint/ConstantDefinitionInBlock:
+  Enabled: false
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+Lint/EmptyFile:
+  Enabled: false
+Lint/FloatComparison:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Lint/MixedRegexpCaptureTypes:
   Enabled: false
 Lint/NonDeterministicRequireOrder:
   Enabled: false
@@ -48,9 +72,13 @@ Lint/RedundantCopDisableDirective:
   Enabled: false
 Lint/RedundantRequireStatement:
   Enabled: false
+Lint/RedundantSafeNavigation:
+  Enabled: false
 Lint/SuppressedException:
   Enabled: false
 Lint/ToJSON:
+  Enabled: false
+Lint/UnreachableLoop:
   Enabled: false
 Lint/UriEscapeUnescape:
   Enabled: false
@@ -93,6 +121,8 @@ Naming/VariableNumber:
 
 Performance/Casecmp:
   Enabled: false
+Performance/Count:
+  Enabled: false
 Performance/DeletePrefix:
   Enabled: false
 Performance/DeleteSuffix:
@@ -132,11 +162,19 @@ Rails/HelperInstanceVariable:
   Enabled: false
 Rails/HttpStatus:
   Enabled: false
+Rails/InverseOf:
+  Enabled: false
 Rails/LexicallyScopedActionFilter:
   Enabled: false
 Rails/PluralizationGrammar:
   Enabled: false
 Rails/RakeEnvironment:
+  Enabled: false
+Rails/RedundantForeignKey:
+  Enabled: false
+Rails/RedundantReceiverInWithOptions:
+  Enabled: false
+Rails/ReversibleMigration:
   Enabled: false
 Rails/SkipsModelValidations:
   Enabled: false
@@ -151,7 +189,15 @@ Rails/UnknownEnv:
 Security/YAMLLoad:
   Enabled: false
 
+Style/AccessorGrouping:
+  Enabled: false
 Style/AutoResourceCleanup:
+  Enabled: false
+Style/CaseLikeIf:
+  Enabled: false
+Style/ClassEqualityComparison:
+  Enabled: false
+Style/CombinableLoops:
   Enabled: false
 Style/ConditionalAssignment:
   Enabled: false
@@ -173,23 +219,39 @@ Style/EachWithObject:
   Enabled: false
 Style/EmptyCaseCondition:
   Enabled: false
+Style/EmptyLiteral:
+  Enabled: false
 Style/Encoding:
   Enabled: false
 Style/ExpandPathArguments:
+  Enabled: false
+Style/ExplicitBlockArgument:
   Enabled: false
 Style/FloatDivision:
   Enabled: false
 Style/FormatString:
   Enabled: false
 Style/FormatStringToken:
-  EnforcedStyle: unannotated
+  Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
+Style/GlobalStdStream:
+  Enabled: false
 Style/GuardClause:
+  Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashLikeCase:
+  Enabled: false
+Style/HashTransformValues:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
 Style/InlineComment:
+  Enabled: false
+Style/KeywordParametersOrder:
   Enabled: false
 Style/Lambda:
   Enabled: false
@@ -209,15 +271,27 @@ Style/Next:
   Enabled: false
 Style/NumericPredicate:
   Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false
 Style/OptionHash:
+  Enabled: false
+Style/RedundantAssignment:
   Enabled: false
 Style/RedundantConditional:
   Enabled: false
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
 Style/RedundantParentheses:
+  Enabled: false
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+Style/RedundantRegexpEscape:
   Enabled: false
 Style/RedundantReturn:
   Enabled: false
 Style/RedundantSelf:
+  Enabled: false
+Style/RedundantSelfAssignment:
   Enabled: false
 Style/RegexpLiteral:
   Enabled: false
@@ -229,9 +303,17 @@ Style/Send:
   Enabled: false
 Style/SignalException:
   Enabled: false
+Style/SingleArgumentDig:
+  Enabled: false
 Style/SingleLineBlockParams:
   Enabled: false
+Style/SlicingWithRange:
+  Enabled: false
+Style/SoleNestedConditional:
+  Enabled: false
 Style/StderrPuts:
+  Enabled: false
+Style/StringConcatenation:
   Enabled: false
 Style/StringMethods:
   Enabled: false
@@ -247,9 +329,15 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
+Style/RedundantBegin:
+  Enabled: false
 Style/RedundantCondition:
   Enabled: false
+Style/RedundantFetchBlock:
+  Enabled: false
 Style/RedundantInterpolation:
+  Enabled: false
+Style/UnpackFirst:
   Enabled: false
 Style/WordArray:
   Enabled: false
