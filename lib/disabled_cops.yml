@@ -1,4 +1,7 @@
 ---
+AllCops:
+  SuggestExtensions: false
+
 Bundler/InsecureProtocolSource:
   Enabled: false
 
