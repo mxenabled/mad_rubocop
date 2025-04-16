@@ -20,9 +20,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", "~> 1.32.0"
-  spec.add_dependency "rubocop-performance", "~> 1.14.3"
-  spec.add_dependency "rubocop-rails", "~> 2.15.2"
+  spec.required_ruby_version = '>= 2.7.0'
+
+  spec.add_dependency "rubocop", "~> 1.75"
+  spec.add_dependency "rubocop-performance", "~> 1.25"
+  spec.add_dependency "rubocop-rails", "~> 2.31"
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake"
 end
